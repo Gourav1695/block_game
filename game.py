@@ -126,7 +126,7 @@ while not game_over:
 		myFont2 = pygame.font.SysFont("monospcae", 50)
 		myFont3 = pygame.font.SysFont("comicsansms", 40)
 		text = "SCORE: " + str(score)
-		thank = "Thanks for Playing :)  ~Arnab Sen"
+		thank = "Thanks for Playing :)  ~Gourav Kumar Shaw"
 		label = myFont.render(text, 1, YELLOW)
 		label2 = myFont3.render(thank, 1, YELLOW)
 		screen.blit(label, (WIDTH/2 - 60, HEIGHT/2))
